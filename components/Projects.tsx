@@ -20,7 +20,7 @@ function Projects({ }: Props) {
             <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x
             snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
                 {projects.map((project, i) => (
-                    <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5
+                    <div key={project} className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5
                     items-center justify-center p-20 md:p-44 h-screen">
                         <motion.img
                             initial={{ y: -300, opacity:0 }}
@@ -34,7 +34,7 @@ function Projects({ }: Props) {
                             <div className="text-4xl font-semibold text-center">
                                 <h4>Projects: {i + 1} of {projects.length}</h4>
                                 <p className="text-lg text-center md:text-left p-7">
-                                It worked for me, if error is coming then just solve it line by line simply in your code, like : 1.Expected indentation of 2 spaces but found 8 then put only 2 spaces from the starting of the line 2.Unexpected tab character - don't use tabs, use spaces 3.Trailing spaces not allowed - don't give any spaces after lines end. 4.Missing space before value for ke    
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                                  .</p>
                             </div>
                         </div>

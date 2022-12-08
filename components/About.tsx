@@ -31,7 +31,7 @@ function About({ }: Props) {
                 <div className="space-y-10 px-0 md:px-10">
                     <h4 className='text-4xl font-semibold'>Here a <span className="underline decoration-yellow-500/50">little</span> background</h4>
                     <p className="text-base">
-                    It worked for me, if error is coming then just solve it line by line simply in your code, like : 1.Expected indentation of 2 spaces but found 8  then put only 2 spaces from the starting of the line 2.Unexpected tab character - don't use tabs, use spaces 3.Trailing spaces not allowed - don't give any spaces after lines end. 4.Missing space before value for key 'name' - put 1 space after ":" in object value 5.A space is required after ',' - put 1 space after "," in parameter of the function 6.Opening curly brace does not appear on the same line as controlling statement - just put the opening curly brace where function starts in the same line 7.)Closing curly brace should be on the same line as opening curly brace or on the line after the previous block - put the closing curly brace just below where the function starts.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                     </p>
                 </div>
         </motion.div>
